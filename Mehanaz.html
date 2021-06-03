@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+ 
+ <link rel="stylesheet" href="style.css">
+
+
+
+<body>
+ <h1 style="text-align:center;">Mehanaz Sultana Juthi</h1>
+
+ <script>
+   var btn = document.createElement("BUTTON");
+   btn.innerHTML = "WELCOME";
+
+   function appendButton(){
+     document.getElementById("container").appendChild(btn);
+   }
+ </script>
+ <div id='container'>
+   <button id='button1' onclick="appendButton()">Click Me</button>
+ </div>
+
+
+</body>
+</html>
